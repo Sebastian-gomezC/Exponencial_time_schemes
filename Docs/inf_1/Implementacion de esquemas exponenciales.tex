@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage[utf8x]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{url}
+\usepackage{cancel}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{geometry}
+\usepackage{pythonhighlight}
+\usepackage{tikz}
+\geometry{
+	letterpaper,
+	total={170mm,240mm},
+	left=20mm,
+	top=20mm,
+}
+
+\title{
+	\vspace{-25mm}\begin{figure}[h]
+		\centering
+		\includegraphics[width=1in]{Escudo_de_la_Universidad_Nacional_de_Colombia.png}
+		\label{escudo}
+	\end{figure}
+	Aplicaciones de elementos finitos\\
+	\Large Universidad nacional de Colombia\\ 
+	Facultad de ingeniería }
+
+\author{Jhon Sebastian Gómez Castillo -
+ \textit{jsgomezca@unal.edu.co}
+}
+
+\begin{document}
+	
+	\maketitle
+\begin{figure}[H]
+	\centering
+	\label{dominio del problema}
+	\caption{dominio del problema}
+	\begin{tikzpicture}[scale=2]
+		
+		% Dibujar el cuadrado
+		\draw (0,0) --node[below]{T=0} (3,0) -- node[right]{T=0}  (3,3) --node[above]{q=0}  (0,3) -- node[left]{q=0} cycle;
+		
+		
+		% Fuente en el interior
+		\filldraw[fill=blue!20,draw=blue,thick] (1.5,1.5) circle [radius=0.07] node[right,black] {Q};
+	\end{tikzpicture}
+\end{figure}
+
+
+	
+\end{document}
