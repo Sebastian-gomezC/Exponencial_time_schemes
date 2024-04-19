@@ -251,10 +251,8 @@ if __name__ == "__main__":
         y_ana=Analytical(x_cor,t)
         L2_norm = np.sum((np.array(y)-np.array(y_ana))**2)
         L2.append([L2_norm,t])
-        plt.plot(x_cor,y,"o",color='black')
-        plt.plot(x_cor,y_ana,"-",color='red')
     end_code = time.time()
-    plt.show()
+
     print("execution time: ", end_code-start_code )
     error=pd.DataFrame(L2,columns=[solver,'tiempo'])
     error.to_csv(f'results_dt_{real_dt}/error_scheme_{solver}.csv')
