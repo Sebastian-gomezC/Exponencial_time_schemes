@@ -9,3 +9,5 @@
 *.ai
 *.out
 *.zip
+*.csv
+*.npz
