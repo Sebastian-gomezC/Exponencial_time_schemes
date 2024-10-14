@@ -1,0 +1,312 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Hochbruck2010}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9eee7d6eb090a564f710e78df429f91f}{%
+           family={Hochbruck},
+           familyi={H\bibinitperiod},
+           given={Marlis},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6f707c3834a287a1bb6efe0a6ee24586}{%
+           family={Ostermann},
+           familyi={O\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{634f085ce89ce4e75745aa5976c5449a}
+      \strng{fullhash}{634f085ce89ce4e75745aa5976c5449a}
+      \strng{bibnamehash}{634f085ce89ce4e75745aa5976c5449a}
+      \strng{authorbibnamehash}{634f085ce89ce4e75745aa5976c5449a}
+      \strng{authornamehash}{634f085ce89ce4e75745aa5976c5449a}
+      \strng{authorfullhash}{634f085ce89ce4e75745aa5976c5449a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0962492910000}
+      \field{issn}{09624929}
+      \field{journaltitle}{Acta Numerica}
+      \field{title}{{Exponential integrators}}
+      \field{volume}{19}
+      \field{year}{2010}
+      \field{pages}{209\bibrangedash 286}
+      \range{pages}{78}
+      \verb{doi}
+      \verb 10.1017/S0962492910000048
+      \endverb
+      \verb{file}
+      \verb :home/sebastian/Documents/Mcs_docs/s0962492910000048.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Schulze}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5d39cfb977f0ceb5c47604f8d6150898}{%
+           family={Schulze},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=199ea9121b41392f6aee2711f23bba45}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8f1586dd3cab28eccd5c2f603e73c168}{%
+           family={Sesterhenn},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f7d7812309171b918a78d6e1ef7e2d1e}
+      \strng{fullhash}{f7d7812309171b918a78d6e1ef7e2d1e}
+      \strng{bibnamehash}{f7d7812309171b918a78d6e1ef7e2d1e}
+      \strng{authorbibnamehash}{f7d7812309171b918a78d6e1ef7e2d1e}
+      \strng{authornamehash}{f7d7812309171b918a78d6e1ef7e2d1e}
+      \strng{authorfullhash}{f7d7812309171b918a78d6e1ef7e2d1e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal for Numerical Methods in Fluids}
+      \field{number}{6}
+      \field{title}{Exponential time integration using Krylov subspaces}
+      \field{volume}{60}
+      \field{year}{2009}
+      \field{pages}{591\bibrangedash 609}
+      \range{pages}{19}
+      \verb{doi}
+      \verb https://doi.org/10.1002/fld.1902
+      \endverb
+      \keyw{Krylov subspaces,exponential integration}
+    \endentry
+    \entry{Brachet2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=65446bdecd14d22b639f2982157ab392}{%
+           family={Brachet},
+           familyi={B\bibinitperiod},
+           given={Matthieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2a343b6aaee9d7fbf675953f34b76dd}{%
+           family={Debreu},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod}}}%
+        {{hash=004f683f86f03c88e22fdcc33ec469eb}{%
+           family={Eldred},
+           familyi={E\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0503df2e09b5bc7ec9cb1d64164c79a}
+      \strng{fullhash}{c0503df2e09b5bc7ec9cb1d64164c79a}
+      \strng{bibnamehash}{c0503df2e09b5bc7ec9cb1d64164c79a}
+      \strng{authorbibnamehash}{c0503df2e09b5bc7ec9cb1d64164c79a}
+      \strng{authornamehash}{c0503df2e09b5bc7ec9cb1d64164c79a}
+      \strng{authorfullhash}{c0503df2e09b5bc7ec9cb1d64164c79a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The time integration scheme is probably one of the most fundamental choices in the development of an ocean model. In this paper, we investigate several time integration schemes when applied to the shallow water equations. This set of equations is accurate enough for the modeling of a shallow ocean and is also relevant to study as it is the one solved for the barotropic (i.e. vertically averaged) component of a three dimensional ocean model. We analyze different time stepping algorithms for the linearized shallow water equations. High order explicit schemes are accurate but the time step is constrained by the Courant-Friedrichs-Lewy stability condition. Implicit schemes can be unconditionally stable but, in practice lack accuracy when used with large time steps. In this paper we propose a detailed comparison of such classical schemes with exponential integrators. The accuracy and the computational costs are analyzed in different configurations.}
+      \field{issn}{01689274}
+      \field{journaltitle}{Applied Numerical Mathematics}
+      \field{title}{{Comparison of exponential integrators and traditional time integration schemes for the shallow water equations}}
+      \field{volume}{180}
+      \field{year}{2022}
+      \field{pages}{55\bibrangedash 84}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1016/j.apnum.2022.05.006
+      \endverb
+      \verb{file}
+      \verb :home/sebastian/Documents/Mcs_docs/BrachetDebreuEldred_lswe_16may2022.pdf:pdf
+      \endverb
+      \keyw{Exponential integrators,Finite differences,Krylov methods,Shallow water equations,Time stepping}
+    \endentry
+    \entry{Hersch1958}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8a8c5df30e98fdab3ae9cc782c70bb2b}{%
+           family={Hersch},
+           familyi={H\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a8c5df30e98fdab3ae9cc782c70bb2b}
+      \strng{fullhash}{8a8c5df30e98fdab3ae9cc782c70bb2b}
+      \strng{bibnamehash}{8a8c5df30e98fdab3ae9cc782c70bb2b}
+      \strng{authorbibnamehash}{8a8c5df30e98fdab3ae9cc782c70bb2b}
+      \strng{authornamehash}{8a8c5df30e98fdab3ae9cc782c70bb2b}
+      \strng{authorfullhash}{8a8c5df30e98fdab3ae9cc782c70bb2b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift für angewandte Mathematik und Physik ZAMP}
+      \field{title}{{Contribution á la méthode des équations aux différences}}
+      \field{volume}{9}
+      \field{year}{1958}
+      \field{pages}{129\bibrangedash 180}
+      \range{pages}{52}
+      \verb{doi}
+      \verb 10.1007/bf01600630
+      \endverb
+      \verb{file}
+      \verb :home/sebastian/Documents/Mcs_docs/bf01600630.pdf:pdf
+      \endverb
+    \endentry
+    \entry{.ch1}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=63cb82e193b52bdc5a97613b5656ef8e}{%
+           family={Farahbakhsh},
+           familyi={F\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons, Ltd}%
+      }
+      \strng{namehash}{63cb82e193b52bdc5a97613b5656ef8e}
+      \strng{fullhash}{63cb82e193b52bdc5a97613b5656ef8e}
+      \strng{bibnamehash}{63cb82e193b52bdc5a97613b5656ef8e}
+      \strng{authorbibnamehash}{63cb82e193b52bdc5a97613b5656ef8e}
+      \strng{authornamehash}{63cb82e193b52bdc5a97613b5656ef8e}
+      \strng{authorfullhash}{63cb82e193b52bdc5a97613b5656ef8e}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Krylov Subspace Methods with Application in Incompressible Fluid Flow Solvers}
+      \field{chapter}{1}
+      \field{isbn}{9781119618737}
+      \field{title}{Introduction}
+      \field{year}{2020}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1002/9781119618737.ch1
+      \endverb
+      \keyw{fluid dynamics,incompressible fluid flow,Krylov subspace methods,partial differential equations}
+    \endentry
+    \entry{Sogabe2022}{book}{}
+      \name{author}{1}{}{%
+        {{hash=975c5b95152556a01f54c3d7aac926ac}{%
+           family={Sogabe},
+           familyi={S\bibinitperiod},
+           given={Tomohiro},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Nagoya, Japan}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{975c5b95152556a01f54c3d7aac926ac}
+      \strng{fullhash}{975c5b95152556a01f54c3d7aac926ac}
+      \strng{bibnamehash}{975c5b95152556a01f54c3d7aac926ac}
+      \strng{authorbibnamehash}{975c5b95152556a01f54c3d7aac926ac}
+      \strng{authornamehash}{975c5b95152556a01f54c3d7aac926ac}
+      \strng{authorfullhash}{975c5b95152556a01f54c3d7aac926ac}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Springer Singapore}
+      \field{edition}{1}
+      \field{isbn}{978-981-19-8532-4}
+      \field{title}{{Krylov Subspace Methods for Linear Systems}}
+      \field{year}{2023}
+      \field{pages}{225}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1007/978-981-19-8532-4
+      \endverb
+      \verb{file}
+      \verb :home/sebastian/Documents/Mcs_docs/978-981-19-8532-4 (1).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.springer.com/book/10.1007/978-981-19-8532-4
+      \endverb
+      \verb{url}
+      \verb https://link.springer.com/book/10.1007/978-981-19-8532-4
+      \endverb
+    \endentry
+    \entry{Roache2019}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=ffeba95c85993435b8236f9c850c34f2}{%
+           family={Roache},
+           familyi={R\bibinitperiod},
+           given={Patrick\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=a101fb84ec3a2dfaa7f0d5fea9286b95}{%
+           family={Beisbart},
+           familyi={B\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod}}}%
+        {{hash=10dbd4d765a27623b64cb04e0e506e71}{%
+           family={Saam},
+           familyi={S\bibinitperiod},
+           given={Nicole\bibnamedelima J},
+           giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{ffeba95c85993435b8236f9c850c34f2}
+      \strng{fullhash}{ffeba95c85993435b8236f9c850c34f2}
+      \strng{bibnamehash}{ffeba95c85993435b8236f9c850c34f2}
+      \strng{authorbibnamehash}{ffeba95c85993435b8236f9c850c34f2}
+      \strng{authornamehash}{ffeba95c85993435b8236f9c850c34f2}
+      \strng{authorfullhash}{ffeba95c85993435b8236f9c850c34f2}
+      \strng{editorbibnamehash}{8ad3816280761f51784f1f56b97a71d7}
+      \strng{editornamehash}{8ad3816280761f51784f1f56b97a71d7}
+      \strng{editorfullhash}{8ad3816280761f51784f1f56b97a71d7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computer Simulation Validation: Fundamental Concepts, Methodological Frameworks, and Philosophical Perspectives}
+      \field{isbn}{978-3-319-70766-2}
+      \field{title}{{The Method of Manufactured Solutions for Code Verification}}
+      \field{year}{2019}
+      \field{pages}{295\bibrangedash 318}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/978-3-319-70766-2_12
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-319-70766-2_12
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-319-70766-2_12
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Süli_Mayers_2003}
+\endrefsection
+\endinput
+

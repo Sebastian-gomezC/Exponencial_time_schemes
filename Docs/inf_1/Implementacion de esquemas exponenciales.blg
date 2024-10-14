@@ -1,0 +1,18 @@
+[0] Config.pm:306> INFO - This is Biber 2.18
+[0] Config.pm:309> INFO - Logfile is 'Implementacion de esquemas exponenciales.blg'
+[59] biber:340> INFO - === Wed Aug 21, 2024, 14:23:16
+[70] Biber.pm:418> INFO - Reading 'Implementacion de esquemas exponenciales.bcf'
+[118] Biber.pm:978> INFO - Found 8 citekeys in bib section 0
+[128] Biber.pm:4401> INFO - Processing section 0
+[136] Biber.pm:4592> INFO - Looking for bibtex file 'cites.bib' for section 0
+[137] bibtex.pm:1713> INFO - LaTeX decoding ...
+[150] bibtex.pm:1518> INFO - Found BibTeX data source 'cites.bib'
+[212] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[212] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[212] Biber.pm:4221> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[219] bbl.pm:654> INFO - Writing 'Implementacion de esquemas exponenciales.bbl' with encoding 'UTF-8'
+[222] bbl.pm:757> INFO - Output to Implementacion de esquemas exponenciales.bbl
+[222] Biber.pm:130> WARN - ISBN '0962492910000' in entry 'Hochbruck2010' is invalid - run biber with '--validate_datamodel' for details.
+[222] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_92hn/ca5aff2ab2e2ca0008d9f2b972fe3b23_1924628.utf8, line 43, warning: 11 characters of junk seen at toplevel
+[222] Biber.pm:130> WARN - I didn't find a database entry for 'Süli_Mayers_2003' (section 0)
+[222] Biber.pm:132> INFO - WARNINGS: 3
