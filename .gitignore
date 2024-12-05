@@ -14,3 +14,5 @@
 *.pvtu
 *.txt
 *.msh
+*.pyc
+*checkpoint.py

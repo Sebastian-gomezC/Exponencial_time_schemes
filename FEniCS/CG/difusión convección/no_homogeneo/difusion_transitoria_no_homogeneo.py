@@ -163,7 +163,7 @@ def exp_solver(A,u_i,n,table,auto,m_u,u=0):
         V_m,H_m,fi_m,e_1,m,exp_H  = arnoldi_iteration(A,u_i,real_dt)
     else:
         V_m,H_m,fi_m,e_1,m,exp_H  = arnoldi_iteration_m(A,u_i,real_dt,m_u)
-    arnoldi_t=time.time()-arnoldi_ti
+    arnoldi_t=time.time()-arnoldi_ti 
     solver_ti=time.time()
     if n==0:
         u = real_dt*Beta*np.dot(np.dot(V_m,fi_m),e_1.T)+u_n.vector().get_local()
@@ -228,7 +228,7 @@ if __name__ == "__main__":
 
     # Creación de la malla y definición del espacio de funciones
     start = 0
-    x_end = 20
+    x_end = 15
     mesh = IntervalMesh(nx, start, x_end)  # Crea una malla cuadrada unitaria
     contorno = MeshFunction("size_t", mesh, mesh.topology().dim()-1)
     left().mark(contorno, 1)
@@ -314,9 +314,9 @@ if __name__ == "__main__":
         for i in x_cor:
             u_p.append(u_(i))
             u_an.append(u_a(i))
-        # if near(t,real_dt,real_dt/2) or near(t,5,real_dt/2) or near(t,10,real_dt/2):
-        #     plt.plot(x_cor,u_p)
-        #     plt.plot(x_cor,u_an,'--',label=f'{t}')
+        if near(t,real_dt,real_dt/2) or near(t,5,real_dt/2) or near(t,10,real_dt/2):
+            plt.plot(x_cor,u_p)
+            plt.plot(x_cor,u_an,'--',label=f'{t}')
         L2_norm=assemble((u_ - u_a)**2 * dx)**0.5
         L2.append([L2_norm,t])
     
